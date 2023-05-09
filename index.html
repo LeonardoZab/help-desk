@@ -11,26 +11,21 @@
             <h1>HelpDesk</h1>
           </header>
       <div class="container">
-        <h2>Abertura de Chamado</h2>
+        <h2>Abrir chamado</h2>
         <form>
           <label for="cliente">Cliente:</label>
-          <input type="text" id="cliente" name="cliente" required="">
+          <input type="text" id="cliente" name="cliente">
     
           <label for="sistema">Sistema:</label>
-          <input type="text" id="sistema" name="sistema" required="">
+          <input type="text" id="sistema" name="sistema">
     
           <label for="modulo">Módulo:</label>
-          <input type="text" id="modulo" name="modulo" required="">
+          <input type="text" id="modulo" name="modulo">
           
-          <label for="tipo-manutencao">Tipo de Manutenção:</label>
-          <select id="tipo-manutencao" name="tipo-manutencao" required="">
-            <option value="">Selecione...</option>
-            <option value="corretiva">Corretiva</option>
-            <option value="preventiva">Preventiva</option>
-            <option value="melhoria">Melhoria</option>
-          </select>
+          <label for="modulo">tipo de manutenção:</label>
+          <input type="text" id="manun" name="manun">
     
-          <label for="sla">Tempo para Manutenção (SLA):</label>
+          <label for="sla">Tempo para Manutenção:</label>
           <input type="text" id="sla" name="sla" required="">
     
           <label for="titulo">Título:</label>
@@ -39,7 +34,7 @@
           <label for="descricao">Descrição:</label>
           <textarea id="descricao" name="descricao" required=""></textarea>
     
-          <input type="submit" value="Abrir Chamado">
+            <button>Abrir Chamado</button>
         </form>
       </div>
     </body>
