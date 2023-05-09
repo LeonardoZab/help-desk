@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
     display: flex;
@@ -25,6 +25,10 @@ body {
   
   h1 {
     margin: 0;
+  }
+
+  h4{
+    color: green;
   }
   
   .container {
@@ -74,5 +78,9 @@ body {
     color: black;
     background-color: lightseagreen;
   }
-    
+
+  button a{
+    text-decoration: none;
+    color: black;
+  }
   
